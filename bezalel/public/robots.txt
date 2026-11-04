@@ -1,0 +1,40 @@
+# BEZALEL INC — Robots & AI Crawler Directives
+# https://bezalelinc.com
+
+User-agent: *
+Allow: /
+Disallow: /loading
+Disallow: /api/
+
+# AI, LLM & Answer Engine Crawlers (AEO)
+# Permitted to discover, index, and cite BEZALEL INC knowledge
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Canonical Sitemap & LLM Knowledge Document
+Sitemap: https://bezalelinc.com/sitemap.xml
+# LLM discovery index: https://bezalelinc.com/llms.txt
